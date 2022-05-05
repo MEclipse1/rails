@@ -1,24 +1,24 @@
-# README
+# ruby
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### ruby教程
+https://guides.rubyonrails.org/getting_started.html
 
-Things you may want to cover:
+## MVC
+### model 层 
+`app/models`
 
-* Ruby version
+### controller 层 
+`app/controllers`
 
-* System dependencies
+### view 层 
+`app/views`
 
-* Configuration
+### 路由映射
+`config/routes.rb`
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```ruby
+# 去找articles controller下的index方法
+root "articles#index"
+```
+### 启动方式
+`bin/rails server`
